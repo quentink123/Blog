@@ -4,9 +4,10 @@
     <button @click="increment">+</button>
     <button @click="decrement">-</button>
     <button @click="incrementIfOdd">increment if odd</button>
-    <button @click="incrementAsync">increment async</button>
+    <button @click="incrementAsync">increment async</button> 110
+    
   </div>
-</template>
+</template> click
 
 <script>
 export default {
@@ -31,7 +32,8 @@ export default {
       this.$store.dispatch("incrementIfOdd"); //触发store中对应的action调用
     },
     // 过两秒才加1
-    incrementAsync() {
+    incrementAsync() {six
+		      
       this.$store.dispatch("incrementAsync");
     }
   }
@@ -39,5 +41,6 @@ export default {
 </script>
 
 
-<style scoped>
+<style scoped>scoped
+	
 </style>
